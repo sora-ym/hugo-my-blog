@@ -1,0 +1,66 @@
+baseURL = 'https://apx.sorayu.me'
+languageCode = "ja"
+defaultContentLanguage = "ja"
+hasCJKLanguage = true
+title = 'SORAYU_ME_'
+theme = "github-style"
+#googleAnalytics = ""
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+#unsafe: true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  author = "そら。"
+  description = "20↑ (声だけ)配信する人。@PlayApex since s13"
+#  images = ['/images/avatar.png']
+  github = "sora_78209"
+  twitter = "sora_78209"
+#  twitter = "sora_open_78209"
+#  instagram = "sorayu_me_apx"
+  email = "sorayu_me_apx@sorayu.me"
+  url = "https://apx.sorayu.me"
+  keywords = "blog, apex, streaming"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "🎮"
+  favicon = "/images/github.png"
+  avatar = "/images/avatar.png"
+  location = "Japan"
+#  enableGitalk = true
+  pinnedPostCount = 2
+
+#  [params.gitalk]
+#    clientID = "Your client ID" 
+#    clientSecret = "Your client secret" 
+#    repo = "repo"
+#    owner = "sorayu_me_apx"
+#    admin = "sorayu_me_apx"
+#    id = "location.pathname"
+#    labels = "gitalk"
+#    perPage = 15
+#    pagerDirection = "last"
+#    createIssueManually = true
+#    distractionFreeMode = false
+
+  [[params.links]]
+    title = "Link1"
+    href = "https://twitcasting.tv/sora_78209"
+    icon = "/images/twicas.png"
+
+  [[params.links]]
+    title = "Link2"
+    href = "https://www.twitch.tv/sorayu_me_"
+    icon = "/images/twitch.png"
+
+  [[params.links]]
+    title = "Link3"
+    href = "https://discord.gg/NXx3XWzT"
+    icon = "/images/discordlogo-72.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
