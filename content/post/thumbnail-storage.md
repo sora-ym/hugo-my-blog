@@ -22,8 +22,14 @@ summary: "サムネイル置き場"
 ![zatsu-cas-001](/images/zatsu-cas-001.png)  
 
 
+## 牧場物語
+
+![hm-cas-001](/images/hm-cas-001.png)  
+![hm-cas-002](/images/hm-cas-002.png)  
+
 ## その他ゲーム
   
 ![game-cas-001](/images/game-cas-001.png)  
+![geoguesser-cas-001](/images/geoguesser-cas-001.png)  
 
 
